@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: antiquewhite;
+}
+/* HEADING SECTION */
+.header{
+    height: 3vh;
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top:0;
+    left:0;
+    right:0;
+    background-color: black;
+}
+.topbar > a{
+    color: antiquewhite;
+    padding: 15px;
+    text-decoration: none;
+}
+.header:hover > .topbar{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.header:hover > .topbar:hover{
+    opacity:1;
+}
+/* HOME SECTION */
+#home-section{
+    padding: 250px 50px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home-section>h1{
+    
+    margin:10px;
+}
+#home-section>h2{
+    margin:2px;
+}
+#name{
+    color:red;
+}
+/* ABOUT SECTION */
+#about-section{
+    height:auto;
+    padding:50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+}
+.about{
+    width:60vw;
+    height:auto;
+    padding:20px;
+    margin: 50px auto;
+    background-color: antiquewhite;
+    color: black;
+}
+/*SKILL SECTION*/
+#skill-section{
+    height:auto;
+    padding:250px 50px;
+}
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+.container{
+    margin:20px 0;
+    background-color: antiquewhite;
+}
+.html{
+    width: 80%; 
+    background-color: red;
+}
+.css {
+    width: 70%; 
+    background-color: skyblue;
+}
+.js {
+    width: 55%; 
+    background-color: violet;
+}
+.react {
+    width: 30%; 
+    background-color: green;
+}
+/*CONTACT SECTION*/
+#contact-section{
+    height:100vh;
+    
+    padding:150px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact-container{
+    width:200px;
+    height: auto;
+    padding: 20px;
+}
+.label{
+    margin-left: 10px;
+}
+#contact-section h1{
+    margin-bottom:100px;
+}
+a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+/*FOOTER SECTION*/
+footer{
+    height: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    border: 0.5px solid bisque  ;
+}
